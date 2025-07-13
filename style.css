@@ -1,6 +1,7 @@
 /* ===== Основные стили ===== */
+/* Оформление всей страницы */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
@@ -10,38 +11,44 @@ body {
 }
 
 /* ===== Хедер ===== */
+/* Секция header: центрирование и отступы */
 .header {
   text-align: center;
   margin-bottom: 30px;
 }
 
+/* Фото в шапке */
 .header__avatar {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-bottom: 15px;
 }
 
+/* Имя */
 .header__title {
-  font-size: 2.5rem;
+  font-size: 40px;
   margin: 0;
 }
 
+/* Подзаголовок — должность */
 .header__subtitle {
-  font-size: 1.25rem;
+  font-size: 20px;
   color: #666;
   margin-top: 5px;
 }
 
 /* ===== Секции ===== */
+/* Заголовок каждой секции */
 .section__title {
-  font-size: 1.8rem;
+  font-size: 30px;
   border-bottom: 2px solid #ccc;
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
 
+/* Списки (контакты, навыки, образование) */
 .contacts__list,
 .skills__list,
 .education__list {
@@ -50,12 +57,14 @@ body {
   margin: 0 0 30px 0;
 }
 
+/* Элементы списков */
 .contacts__item,
 .skills__item,
 .education__item {
   margin-bottom: 8px;
 }
 
+/* Ссылки */
 a {
   color: #0066cc;
   text-decoration: none;
@@ -67,17 +76,19 @@ a:focus {
 }
 
 /* ===== Код ===== */
+/* Секция с примером кода */
 .code__block {
   background-color: #f4f4f4;
   border: 1px solid #ddd;
   padding: 15px;
   overflow-x: auto;
   font-family: "Courier New", Courier, monospace;
-  font-size: 1rem;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 
 /* ===== Футер ===== */
+/* Вся секция footer */
 .footer {
   text-align: center;
   margin-top: 40px;
@@ -87,10 +98,12 @@ a:focus {
   color: #555;
 }
 
+/* Текст в футере */
 .footer__text {
   margin: 0;
 }
 
+/* Ссылки в футере */
 .footer__link {
   color: #555;
   text-decoration: none;
@@ -101,6 +114,7 @@ a:focus {
   text-decoration: underline;
 }
 
+/* Логотип RS School */
 .footer__logo {
   height: 20px;
   vertical-align: middle;
