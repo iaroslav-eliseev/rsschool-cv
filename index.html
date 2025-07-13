@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta information and stylesheet linking -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Iaroslav Eliseev CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Page header with avatar, name, and profession -->
+    <header class="header">
+      <img
+        class="header__avatar"
+        src="./assets/my_photo.jpg"
+        alt="Photo of Iaroslav Eliseev"
+      >
+      <h1 class="header__title">Iaroslav Eliseev</h1>
+      <p class="header__subtitle">Junior Frontend Developer</p>
+    </header>
+
+    <!-- Main CV content -->
+    <main class="main">
+
+      <!-- Contact information section -->
+      <section class="section contacts">
+        <h2 class="section__title">Contact Information</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            Email: <a href="mailto:mr.ei@ya.ru">mr.ei@ya.ru</a>
+          </li>
+          <li class="contacts__item">
+            Discord:
+            <a
+              href="https://discordapp.com/users/1366781004781719623"
+              target="_blank"
+              rel="noopener noreferrer"
+              >iaroslaveliseev_75117</a
+            >
+          </li>
+          <li class="contacts__item">
+            GitHub: <a href="https://github.com/iaroslav-eliseev" target="_blank"
+              >iaroslav-eliseev</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!-- About me section -->
+      <section class="section about">
+        <h2 class="section__title">About Me</h2>
+        <p>
+          Aspiring Junior Frontend Developer with a strong passion for learning
+          and improving skills in JavaScript, HTML, and CSS. Motivated to grow
+          in a professional environment and contribute effectively to team
+          projects.
+        </p>
+      </section>
+
+      <!-- Skills section -->
+      <section class="section skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">JavaScript (ES6+)</li>
+          <li class="skills__item">HTML5, CSS3 (basic)</li>
+          <li class="skills__item">Git & GitHub</li>
+          <li class="skills__item">VS Code, Chrome DevTools</li>
+          <li class="skills__item">BEM, Responsive Design, Agile basics</li>
+        </ul>
+      </section>
+
+      <!-- Code example section -->
+      <section class="section code">
+        <h2 class="section__title">Code Example</h2>
+        <p>Here is a solution to a Codewars challenge ("How good are you really?", 8 kyu):</p>
+        <pre class="code__block"><code>
+function betterThanAverage(classPoints, yourPoints) {
+  let meanValue = yourPoints;
+  classPoints.forEach((element) => {
+    meanValue += element;
+  });
+  const average = meanValue / (classPoints.length + 1);
+  return yourPoints > average;
+}
+        </code></pre>
+      </section>
+
+      <!-- Education section -->
+      <section class="section education">
+        <h2 class="section__title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">College: Banking (2011–2014)</li>
+          <li class="education__item">
+            University (in progress): Full-stack Software Development, expected
+            2029
+          </li>
+          <li class="education__item">
+            Courses: Yandex Practicum Frontend, Stepik JavaScript Basics
+          </li>
+        </ul>
+      </section>
+
+      <!-- English proficiency section -->
+      <section class="section language">
+        <h2 class="section__title">English</h2>
+        <p>
+          A2 — basic understanding. Reading technical documentation and watching
+          educational videos in English.
+        </p>
+      </section>
+
+    </main>
+
+    <!-- Footer with author credit and course logo -->
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2025
+        <a
+          class="footer__link"
+          href="https://github.com/iaroslav-eliseev"
+          target="_blank"
+          >Iaroslav Eliseev</a
+        >
+        |
+        <a
+          class="footer__link"
+          href="https://rs.school/courses/javascript-ru"
+          target="_blank"
+          ><img
+            class="footer__logo"
+            src="./assets/rs_logo.svg"
+            alt="RS School logo"
+        ></a>
+      </p>
+
+    </footer>
+    
+  </body>
+</html>
