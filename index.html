@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My CV</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <h1>Hello! This will be my CV</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Iaroslav Eliseev CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__avatar"
+        src="./assets/my_photo.jpg"
+        alt="Photo of Iaroslav Eliseev"
+      />
+      <h1 class="header__title">Iaroslav Eliseev</h1>
+      <p class="header__subtitle">Junior Frontend Developer</p>
+    </header>
+    <main class="main">
+      <section class="section contacts">
+        <h2 class="section__title">Contact Information</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            Email: <a href="mailto:mr.ei@ya.ru">mr.ei@ya.ru</a>
+          </li>
+          <li class="contacts__item">Discord: iaroslaveliseev_75117</li>
+          <li class="contacts__item">
+            GitHub:<a href="https://github.com/iaroslav-eliseev" target="_blank"
+              >iaroslav-eliseev</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="section about">
+        <h2 class="section__title">About Me</h2>
+        <p>
+          Aspiring Junior Frontend Developer with a strong passion for learning
+          and improving skills in JavaScript, HTML, and CSS. Motivated to grow
+          in a professional environment and contribute effectively to team
+          projects.
+        </p>
+      </section>
+      <section class="section skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">JavaScript (ES6+)</li>
+          <li class="skills__item">HTML5, CSS3 (basic)</li>
+          <li class="skills__item">Git & GitHub</li>
+          <li class="skills__item">VS Code, Chrome DevTools</li>
+          <li class="skills__item">BEM, Responsive Design, Agile basics</li>
+        </ul>
+      </section>
+      <section class="section code">
+        <h2 class="section__title">Code Example</h2>
+        <pre class="code__block"><code>
+function betterThanAverage(classPoints, yourPoints) {
+  let meanValue = yourPoints;
+  classPoints.forEach((element) => {
+    meanValue += element;
+  });
+  const average = meanValue / (classPoints.length + 1);
+  return yourPoints > average;
+}
+        </code></pre>
+      </section>
+      <section class="section education">
+        <h2 class="section__title">Education</h2>
+        <ul class="education__list">
+          <li class="education__item">College: Banking (2011–2014)</li>
+          <li class="education__item">
+            University (in progress): Full-stack Software Development, expected
+            2029
+          </li>
+          <li class="education__item">
+            Courses: Yandex Practicum Frontend, Stepik JavaScript Basics
+          </li>
+        </ul>
+      </section>
+      <section class="section language">
+        <h2 class="section__title">English</h2>
+        <p>
+          A2 — basic understanding. Reading technical documentation and watching
+          educational videos in English.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2025
+        <a
+          class="footer__link"
+          href="https://github.com/iaroslav-eliseev"
+          target="_blank"
+          >Iaroslav Eliseev</a
+        >
+        |
+        <a
+          class="footer__link"
+          href="https://rs.school/js-stage0/"
+          target="_blank"
+          ><img
+            class="footer__logo"
+            src="./assets/rsschool-logo.svg"
+            alt="RS School logo"
+        /></a>
+      </p>
+    </footer>
+  </body>
 </html>
