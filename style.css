@@ -1,7 +1,122 @@
+/* ===== base styles ===== */
+/* page styling */
 body {
-  font-family: Arial, sans-serif;
-  padding: 40px;
-  background-color: #f0f0f0;
+  font-family: 'roboto', sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
   color: #333;
+}
+
+/* ===== header ===== */
+/* header section: center alignment and spacing */
+.header {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+/* avatar image in header */
+.header__avatar {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10%;
+  margin-bottom: 15px;
+}
+
+/* name */
+.header__title {
+  font-size: 40px;
+  margin: 0;
+}
+
+/* subtitle - position */
+.header__subtitle {
+  font-size: 20px;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* ===== sections ===== */
+/* title of each section */
+.section__title {
+  font-size: 30px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* lists: contacts, skills, education */
+.contacts__list,
+.skills__list,
+.education__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 30px 0;
+}
+
+/* list items */
+.contacts__item,
+.skills__item,
+.education__item {
+  margin-bottom: 8px;
+}
+
+/* links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* ===== code ===== */
+/* code example section */
+.code__block {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 15px;
+  overflow-x: auto;
+  font-family: "courier new", courier, monospace;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* ===== footer ===== */
+/* entire footer section */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+/* footer text */
+.footer__text {
+  margin: 0;
+}
+
+/* footer links */
+.footer__link {
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+/* rs school logo */
+.footer__logo {
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
