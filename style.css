@@ -124,6 +124,30 @@ a:focus {
   margin-bottom: 30px;
 }
 
+/* ===== projects ===== */
+/* Projects list styles */
+.projects__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 30px 0;
+}
+
+.projects__item {
+  margin-bottom: 10px;
+}
+
+/* Project links */
+.projects__item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.projects__item a:hover,
+.projects__item a:focus {
+  text-decoration: underline;
+}
+
+
 /* ===== footer ===== */
 /* entire footer section */
 .footer {
