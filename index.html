@@ -2,25 +2,26 @@
 <html lang="en">
   <head>
     <!-- Meta information and stylesheet linking -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Iaroslav Eliseev CV</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <!-- Page header with avatar, name, and profession -->
     <header class="header">
       <img
         class="header__avatar"
         src="./assets/my_photo.jpg"
         alt="Photo of Iaroslav Eliseev"
-      >
+      />
       <h1 class="header__title">Iaroslav Eliseev</h1>
       <p class="header__subtitle">Junior Frontend Developer</p>
     </header>
-
 
     <!-- Navigation bar linking to CV sections -->
     <nav class="nav">
@@ -29,14 +30,13 @@
         <li class="nav__item"><a href="#about">About Me</a></li>
         <li class="nav__item"><a href="#skills">Skills</a></li>
         <li class="nav__item"><a href="#code">Code Example</a></li>
+        <li class="nav__item"><a href="#projects">Projects</a></li>
         <li class="nav__item"><a href="#education">Education</a></li>
       </ul>
     </nav>
 
-
     <!-- Main CV content -->
     <main class="main">
-
       <!-- Contact information section -->
       <section class="section contacts" id="contacts">
         <h2 class="section__title">Contact Information</h2>
@@ -54,7 +54,8 @@
             >
           </li>
           <li class="contacts__item">
-            GitHub: <a href="https://github.com/iaroslav-eliseev" target="_blank"
+            GitHub:
+            <a href="https://github.com/iaroslav-eliseev" target="_blank"
               >iaroslav-eliseev</a
             >
           </li>
@@ -65,10 +66,32 @@
       <section class="section about" id="about">
         <h2 class="section__title">About Me</h2>
         <p>
-          Aspiring Junior Frontend Developer with a strong passion for learning
-          and improving skills in JavaScript, HTML, and CSS. Motivated to grow
-          in a professional environment and contribute effectively to team
-          projects.
+          Hello! My name is Iaroslav Eliseev, and I am an aspiring Junior
+          Frontend Developer.
+        </p>
+        <p>
+          I am a motivated and detail-oriented Junior Frontend Developer with a
+          strong foundation in HTML, CSS, and JavaScript. I am passionate about
+          creating responsive, user-friendly interfaces and eager to contribute
+          to real-world projects as part of a collaborative team.
+        </p>
+        <p>
+          To enhance my skills, I regularly complete mini-courses on Stepik and
+          have successfully finished a comprehensive Frontend Development
+          program at Yandex Practicum. I’m currently pursuing a Bachelor’s
+          degree in Full Stack Development at Synergy University in Moscow,
+          which deepens my understanding of both frontend and backend
+          technologies.
+        </p>
+        <p>
+          I stay up to date with industry trends by reading online publications
+          such as <em>thecode.media</em>, <em>CSS Weekly</em>, and
+          <em>Frontend Focus</em>. I also actively improve my coding skills
+          through daily practice on CodeWars.
+        </p>
+        <p>
+          All of this reflects my strong motivation, commitment to growth, and
+          genuine interest in becoming a highly skilled and effective developer.
         </p>
       </section>
 
@@ -87,7 +110,10 @@
       <!-- Code example section -->
       <section class="section code" id="code">
         <h2 class="section__title">Code Example</h2>
-        <p>Here is a solution to a Codewars challenge ("How good are you really?", 8 kyu):</p>
+        <p>
+          Here is a solution to a Codewars challenge ("How good are you
+          really?", 8 kyu):
+        </p>
         <pre class="code__block"><code>
 function betterThanAverage(classPoints, yourPoints) {
   let meanValue = yourPoints;
@@ -98,6 +124,33 @@ function betterThanAverage(classPoints, yourPoints) {
   return yourPoints > average;
 }
         </code></pre>
+      </section>
+
+      <!-- Projects section: list of completed projects with links -->
+      <section class="section projects" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <a
+              href="https://iaroslav-eliseev.github.io/21/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Game "21"
+            </a>
+            — short project description
+          </li>
+          <li class="projects__item">
+            <a
+              href="https://iaroslav-eliseev.github.io/russian-travel/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Проект: Путешествие по России
+            </a>
+            — short project description
+          </li>
+        </ul>
       </section>
 
       <!-- Education section -->
@@ -123,7 +176,6 @@ function betterThanAverage(classPoints, yourPoints) {
           educational videos in English.
         </p>
       </section>
-
     </main>
 
     <!-- Footer with author credit and course logo -->
@@ -145,10 +197,8 @@ function betterThanAverage(classPoints, yourPoints) {
             class="footer__logo"
             src="./assets/rs_logo.svg"
             alt="RS School logo"
-        ></a>
+        /></a>
       </p>
-
     </footer>
-    
   </body>
 </html>
